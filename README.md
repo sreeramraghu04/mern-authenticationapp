@@ -11,6 +11,7 @@ A fully responsive MERN (MongoDB, Express.js, React.js, Node.js) stack authentic
 - 🔁 Persistent Login with Local Storage / Cookies
 - 📦 Backend API with Express & MongoDB
 - ⚛️ React Frontend with Context API
+- 📂 MVC Folder Structure
 
 ## 🛠️ Tech Stack
 
