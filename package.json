@@ -1,8 +1,8 @@
 {
-  "name": "e-commerce-web",
+  "name": "authentication-web-app",
   "version": "1.0.0",
   "type": "module",
-  "description": "e commerce website for study purpose",
+  "description": "authentication website for study purpose",
   "keywords": [
     "node.js",
     "express.js",
