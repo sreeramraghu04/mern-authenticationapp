@@ -2,7 +2,7 @@ import express from "express";
 import morgan from "morgan";
 import cors from "cors";
 import cookieParser from "cookie-parser";
-import authRoutes from "./routes/AuthRoutes.js";
+import AuthRoutes from "./routes/AuthRoutes.js";
 import crypto from "crypto";
 
 const app = express();
@@ -14,7 +14,7 @@ app.use(morgan.apply("dev")); //*logs requests, errors and more to the console
 app.use(cookieParser()); //* it allows the server access user cookies
 
 //! routes
-app.use("/api/v1/auth", authRoutes);
+app.use("/api/v1/auth", AuthRoutes);
 
 //! generate secret key
 /* const Key = crypto.randomBytes(64).toString("hex");
