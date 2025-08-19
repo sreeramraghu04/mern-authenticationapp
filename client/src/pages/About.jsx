@@ -22,14 +22,17 @@ const About = () => {
 
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 sm:gap-6 max-w-4xl w-full px-4">
         {[
-          "React.js",
+          "HTML",
           "Tailwind CSS",
-          "Node.js",
+          "JavaScript",
+          "Axios",
+          "React.js",
+          "React Router",
           "Express.js",
+          "Node.js",
           "JWT",
           "MongoDB",
-          "React Router",
-          "Axios",
+
         ].map((tech, index) => (
           <div
             key={index}
